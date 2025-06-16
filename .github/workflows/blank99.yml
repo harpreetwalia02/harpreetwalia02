@@ -18,7 +18,7 @@ jobs:
   deploy:
     name: Deploy my app
 
-    runs-on: ${{ fromJSON('["ubuntu-latest", "self-hosted"]')[github.repository == 'github/docs-internal'] }}
+    runs-on: ubuntu-latest
 
     permissions:
       deployments: write
@@ -32,5 +32,4 @@ jobs:
         with:
           token: '${{ github.token }}'
           environment-url: http://my-app-url.com
-         OP-98-Thank-you-for-your-assistance
           environment: production

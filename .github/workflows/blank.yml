@@ -32,5 +32,5 @@ jobs:
         with:
           token: '${{ github.token }}'
           environment-url: http://my-app-url.com
-         OP-98-Thank-you-for-your-assistance
-          environment: production
+         OP-130-test1
+          environment: testes

@@ -33,4 +33,4 @@ jobs:
           token: '${{ github.token }}'
           environment-url: http://my-app-url.com
          OP-130-test1
-          environment: testes
+          environment: production

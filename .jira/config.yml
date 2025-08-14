@@ -8,6 +8,7 @@ deployments:
     testing:
       - "testes"
       - "testes1"
+      - "testes2"
       - "Test"
       - "TST-*"
       - "тест"

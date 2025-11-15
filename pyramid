@@ -15,5 +15,5 @@ public class StarPatterns {
     }
     public static void main(String[] args) {
         pyramidPattern(5);
-    }
-}
+    
+

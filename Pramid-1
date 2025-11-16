@@ -1,0 +1,26 @@
+#include <iostream>
+// Function to print a pyramid pattern
+void printPyramid(int levels) {
+    for (int i = 1; i <= levels; ++i) {
+        // Calculate the number of spaces and stars
+        int numSpaces = levels - i;
+        int numStars = 2 * i - 1;
+        // Print spaces
+        for (int j = 0; j < numSpaces; ++j) {
+            std::cout << " ";
+        }
+        // Print stars
+        for (int j = 0; j < numStars; ++j) {
+            std::cout << "*";
+        }
+        // Move to the next line after each level
+        std::cout << std::endl;
+    }
+}
+int main() {
+    int levels;
+    std::cout << "Enter the number of levels for the pyramid: ";
+    std::cin >> levels;
+    printPyramid(levels);
+    return 0;
+}

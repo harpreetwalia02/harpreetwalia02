@@ -9,4 +9,4 @@ public class LeftPyramid {
             System.out.println(); // Move to the next line after each row
         }
     }
-}
+

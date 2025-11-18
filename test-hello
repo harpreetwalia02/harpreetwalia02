@@ -2,5 +2,5 @@
 
 int main() {
     // Prints "Hello, World!" to the console
-    std::cout << "Hello, World!" << std::endl; 
+    std::cout << "Hello, World!" << std::endl
     return 0; // Indicates successful program execution

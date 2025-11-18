@@ -1,0 +1,6 @@
+#include <iostream> // Required for input/output operations
+
+int main() {
+    // Prints "Hello, World!" to the console
+    std::cout << "Hello, World!" << std::endl
+    return 0; // Indicates successful program execution
